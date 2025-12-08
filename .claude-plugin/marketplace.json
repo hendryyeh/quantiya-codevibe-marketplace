@@ -1,0 +1,13 @@
+{
+  "name": "Claude Companion Marketplace",
+  "version": "1.0.0",
+  "description": "Official marketplace for Claude Companion - control Claude Code from your iPhone",
+  "plugins": [
+    {
+      "name": "claude-companion",
+      "version": "1.0.0",
+      "description": "Mobile companion for Claude Code - monitor and control sessions from your iPhone",
+      "repository": "https://github.com/hendryyeh/quantiya-claude-companion-plugin"
+    }
+  ]
+}
