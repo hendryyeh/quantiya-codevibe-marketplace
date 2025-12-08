@@ -18,14 +18,23 @@ Inside Claude Code, run:
 /plugin install claude-companion
 ```
 
-### Step 3: Complete Setup
+### Step 3: Run Setup Script
 
-After installation, follow the prompts to:
+After installation, run the setup script to configure your PATH:
 
-1. Reload your shell: `source ~/.zshrc`
-2. Login: `claude-companion login`
-3. Start Claude Code: `claude-companion`
-4. Download the iOS app from the App Store
+```bash
+~/.claude/plugins/claude-companion/bin/claude-companion-setup
+source ~/.zshrc  # or ~/.bashrc
+```
+
+### Step 4: Login and Start
+
+```bash
+claude-companion login    # Opens browser for authentication
+claude-companion          # Start Claude Code with mobile support
+```
+
+Download the iOS app from the App Store (search "Claude Companion").
 
 ## What is Claude Companion?
 
