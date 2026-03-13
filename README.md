@@ -1,6 +1,6 @@
-# Claude Companion Marketplace
+# CodeVibe Marketplace
 
-Official marketplace for the Claude Companion plugin - control Claude Code from your iPhone.
+Official marketplace for the CodeVibe Claude plugin - control Claude Code from your iPhone.
 
 ## Installation
 
@@ -9,13 +9,13 @@ Official marketplace for the Claude Companion plugin - control Claude Code from 
 Inside Claude Code, run:
 
 ```
-/plugin marketplace add hendryyeh/claude-companion-marketplace
+/plugin marketplace add hendryyeh/quantiya-codevibe-marketplace
 ```
 
 ### Step 2: Install the Plugin
 
 ```
-/plugin install claude-companion
+/plugin install codevibe-claude
 ```
 
 ### Step 3: Run Setup Script
@@ -23,22 +23,22 @@ Inside Claude Code, run:
 After installation, run the setup script to configure your PATH:
 
 ```bash
-~/.claude/plugins/claude-companion/bin/claude-companion-setup
+~/.claude/plugins/codevibe-claude/bin/codevibe-claude-setup
 source ~/.zshrc  # or ~/.bashrc
 ```
 
 ### Step 4: Login and Start
 
 ```bash
-claude-companion login    # Opens browser for authentication
-claude-companion          # Start Claude Code with mobile support
+codevibe-claude login    # Opens browser for authentication
+codevibe-claude          # Start Claude Code with mobile support
 ```
 
-Download the iOS app from the App Store (search "Claude Companion").
+Download the iOS app from the App Store (search "CodeVibe").
 
-## What is Claude Companion?
+## What is CodeVibe?
 
-Claude Companion lets you control Claude Code from your iPhone:
+CodeVibe lets you control AI coding agents (Claude Code, Gemini CLI, Codex CLI) from your iPhone:
 
 - **Real-time Sync** - See desktop conversations on mobile instantly
 - **Mobile Control** - Send prompts from your iPhone
@@ -46,6 +46,7 @@ Claude Companion lets you control Claude Code from your iPhone:
 - **Interactive Prompts** - Answer permission dialogs remotely
 - **Voice Input** - Dictate prompts using iOS speech-to-text
 - **Image Attachments** - Send screenshots and photos
+- **Multi-Agent** - Supports Claude Code, Gemini CLI, and Codex CLI
 
 ## Requirements
 
@@ -56,8 +57,10 @@ Claude Companion lets you control Claude Code from your iPhone:
 
 ## Links
 
-- **Plugin Repository:** [quantiya-claude-companion-plugin](https://github.com/hendryyeh/quantiya-claude-companion-plugin)
-- **iOS App:** Available on the App Store (search "Claude Companion")
+- **Claude Plugin Repository:** [quantiya-codevibe-claude-plugin](https://github.com/hendryyeh/quantiya-codevibe-claude-plugin)
+- **Gemini Plugin Repository:** [quantiya-codevibe-gemini-plugin](https://github.com/hendryyeh/quantiya-codevibe-gemini-plugin)
+- **Codex Plugin Repository:** [quantiya-codevibe-codex-plugin](https://github.com/hendryyeh/quantiya-codevibe-codex-plugin)
+- **iOS App:** Available on the App Store (search "CodeVibe")
 
 ## License
 

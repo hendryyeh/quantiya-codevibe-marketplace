@@ -1,13 +1,13 @@
 {
-  "name": "Claude Companion Marketplace",
+  "name": "CodeVibe Marketplace",
   "version": "1.0.0",
-  "description": "Official marketplace for Claude Companion - control Claude Code from your iPhone",
+  "description": "Official marketplace for CodeVibe - control AI coding agents from your iPhone",
   "plugins": [
     {
-      "name": "claude-companion",
+      "name": "codevibe-claude",
       "version": "1.0.0",
-      "description": "Mobile companion for Claude Code - monitor and control sessions from your iPhone",
-      "repository": "https://github.com/hendryyeh/quantiya-claude-companion-plugin"
+      "description": "Mobile companion for Claude Code - monitor and control sessions from your iPhone with CodeVibe",
+      "repository": "https://github.com/hendryyeh/quantiya-codevibe-claude-plugin"
     }
   ]
 }
