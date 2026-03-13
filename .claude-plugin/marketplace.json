@@ -1,13 +1,18 @@
 {
-  "name": "CodeVibe Marketplace",
-  "version": "1.0.0",
+  "name": "codevibe-marketplace",
+  "owner": {
+    "name": "Quantiya LLC"
+  },
   "description": "Official marketplace for CodeVibe - control AI coding agents from your iPhone",
   "plugins": [
     {
       "name": "codevibe-claude",
       "version": "1.0.0",
       "description": "Mobile companion for Claude Code - monitor and control sessions from your iPhone with CodeVibe",
-      "repository": "https://github.com/hendryyeh/quantiya-codevibe-claude-plugin"
+      "source": {
+        "source": "github",
+        "repo": "hendryyeh/quantiya-codevibe-claude-plugin"
+      }
     }
   ]
 }
