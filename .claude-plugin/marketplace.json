@@ -7,12 +7,12 @@
   "plugins": [
     {
       "name": "codevibe-claude",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Mobile companion for Claude Code - monitor and control sessions from your iPhone with CodeVibe",
       "source": {
         "source": "npm",
         "package": "@quantiya/codevibe-claude-plugin",
-        "version": "1.0.2"
+        "version": "1.0.3"
       }
     }
   ]
