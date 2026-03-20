@@ -4,27 +4,26 @@ Official marketplace for the CodeVibe Claude plugin - control Claude Code from y
 
 ## Installation
 
-### Step 1: Add this Marketplace
+### Step 1: Install Wrapper Command
+
+Install the CodeVibe wrapper command via npm (puts `codevibe-claude` in your PATH):
+
+```bash
+npm install -g @quantiya/codevibe
+```
+
+### Step 2: Add this Marketplace
 
 Inside Claude Code, run:
 
 ```
-/plugin marketplace add hendryyeh/quantiya-codevibe-marketplace
+/plugin marketplace add https://github.com/hendryyeh/quantiya-codevibe-marketplace
 ```
 
-### Step 2: Install the Plugin
+### Step 3: Install the MCP Plugin
 
 ```
 /plugin install codevibe-claude
-```
-
-### Step 3: Run Setup Script
-
-After installation, run the setup script to configure your PATH:
-
-```bash
-~/.claude/plugins/codevibe-claude/bin/codevibe-claude-setup
-source ~/.zshrc  # or ~/.bashrc
 ```
 
 ### Step 4: Login and Start
