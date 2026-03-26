@@ -3,12 +3,12 @@
   "owner": {
     "name": "Quantiya LLC"
   },
-  "description": "Official marketplace for CodeVibe - control AI coding agents from your iPhone",
+  "description": "Official marketplace for CodeVibe - control AI coding agents from your phone",
   "plugins": [
     {
       "name": "codevibe-claude",
       "version": "1.0.8",
-      "description": "Mobile companion for Claude Code - monitor and control sessions from your iPhone with CodeVibe",
+      "description": "Mobile companion for Claude Code - monitor and control sessions from your phone with CodeVibe",
       "source": {
         "source": "npm",
         "package": "@quantiya/codevibe-claude-plugin",

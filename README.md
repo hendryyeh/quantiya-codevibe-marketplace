@@ -1,65 +1,52 @@
 # CodeVibe Marketplace
 
-Official marketplace for the CodeVibe Claude plugin - control Claude Code from your iPhone.
+Official marketplace for the CodeVibe Claude plugin - control Claude Code from your phone.
 
-## Installation
+## Quick Install
 
-### Step 1: Install Wrapper Command
+```bash
+curl -fsSL https://quantiya.ai/codevibe/install.sh | bash
+```
 
-Install the CodeVibe wrapper command via npm (puts `codevibe-claude` in your PATH):
+This installs everything automatically: Node.js, tmux, Claude Code, CodeVibe, and the Claude plugin.
+
+### Manual Install
 
 ```bash
 npm install -g @quantiya/codevibe
+claude plugin marketplace add https://github.com/hendryyeh/quantiya-codevibe-marketplace
+claude plugin install codevibe-claude@codevibe-marketplace
+codevibe-claude login
 ```
-
-### Step 2: Add this Marketplace
-
-Inside Claude Code, run:
-
-```
-/plugin marketplace add https://github.com/hendryyeh/quantiya-codevibe-marketplace
-```
-
-### Step 3: Install the MCP Plugin
-
-```
-/plugin install codevibe-claude
-```
-
-### Step 4: Login and Start
-
-```bash
-codevibe-claude login    # Opens browser for authentication
-codevibe-claude          # Start Claude Code with mobile support
-```
-
-Download the iOS app from the App Store (search "CodeVibe").
 
 ## What is CodeVibe?
 
-CodeVibe lets you control AI coding agents (Claude Code, Gemini CLI, Codex CLI) from your iPhone:
+CodeVibe lets you control AI coding agents (Claude Code, Gemini CLI, Codex CLI) from your phone:
 
 - **Real-time Sync** - See desktop conversations on mobile instantly
-- **Mobile Control** - Send prompts from your iPhone
-- **Locked Screen Support** - Works even when your Mac is locked
+- **Mobile Control** - Send prompts from your phone
 - **Interactive Prompts** - Answer permission dialogs remotely
-- **Voice Input** - Dictate prompts using iOS speech-to-text
+- **File Diff Review** - See full diffs with syntax highlighting
+- **Push Notifications** - Get alerted when your agent needs input
+- **Voice Input** - Dictate prompts using speech-to-text
 - **Image Attachments** - Send screenshots and photos
+- **E2E Encrypted** - AES-256-GCM encryption for all content
 - **Multi-Agent** - Supports Claude Code, Gemini CLI, and Codex CLI
 
 ## Requirements
 
-- macOS
+- macOS, Windows, or Linux
 - Node.js 18+
-- tmux (`brew install tmux`)
-- Claude Code with plugin system
+- tmux
 
 ## Links
 
-- **Claude Plugin Repository:** [quantiya-codevibe-claude-plugin](https://github.com/hendryyeh/quantiya-codevibe-claude-plugin)
-- **Gemini Plugin Repository:** [quantiya-codevibe-gemini-plugin](https://github.com/hendryyeh/quantiya-codevibe-gemini-plugin)
-- **Codex Plugin Repository:** [quantiya-codevibe-codex-plugin](https://github.com/hendryyeh/quantiya-codevibe-codex-plugin)
-- **iOS App:** Available on the App Store (search "CodeVibe")
+- **Landing Page:** [quantiya.ai/codevibe](https://quantiya.ai/codevibe)
+- **Claude Plugin:** [quantiya-codevibe-claude-plugin](https://github.com/hendryyeh/quantiya-codevibe-claude-plugin)
+- **Gemini Plugin:** [quantiya-codevibe-gemini-plugin](https://github.com/hendryyeh/quantiya-codevibe-gemini-plugin)
+- **Codex Plugin:** [quantiya-codevibe-codex-plugin](https://github.com/hendryyeh/quantiya-codevibe-codex-plugin)
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=ai.quantiya.app.codevibe)
+- **iOS:** [App Store](https://apps.apple.com/app/id6756500217)
 
 ## License
 
