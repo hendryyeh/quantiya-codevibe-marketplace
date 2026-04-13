@@ -7,12 +7,12 @@
   "plugins": [
     {
       "name": "codevibe-claude",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "description": "Control Claude Code from your iPhone and Android — real-time sync, approve file edits, send prompts by voice. Part of CodeVibe.",
       "source": {
         "source": "npm",
         "package": "@quantiya/codevibe-claude-plugin",
-        "version": "1.0.11"
+        "version": "1.0.12"
       }
     }
   ]
