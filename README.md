@@ -1,6 +1,6 @@
 # CodeVibe Marketplace
 
-Official Claude Code plugin marketplace for CodeVibe — control Claude Code, Gemini CLI, and Codex CLI from your phone.
+Official Claude Code plugin marketplace for CodeVibe — control Claude Code, Codex CLI, and Antigravity CLI from your phone.
 
 ## Quick Install
 
@@ -21,7 +21,7 @@ codevibe login
 
 ## What is CodeVibe?
 
-CodeVibe lets you control AI coding agents (Claude Code, Gemini CLI, Codex CLI) from your phone:
+CodeVibe lets you control AI coding agents (Claude Code, Codex CLI, Antigravity CLI) from your phone:
 
 - **Real-time Sync** — See desktop conversations on mobile instantly (~100–500ms latency)
 - **Mobile Control** — Send prompts from your phone; executes immediately in your terminal
@@ -30,7 +30,7 @@ CodeVibe lets you control AI coding agents (Claude Code, Gemini CLI, Codex CLI) 
 - **Image Attachments** — Send screenshots and photos with your messages
 - **Push Notifications** — Get alerted when your agent needs input
 - **E2E Encrypted** — AES-256-GCM encryption for all content
-- **Multi-Agent** — One mobile app controls Claude Code, Gemini CLI, and Codex CLI sessions side-by-side
+- **Multi-Agent** — One mobile app controls Claude Code, Codex CLI, and Antigravity CLI sessions side-by-side
 
 ## Requirements
 
@@ -46,8 +46,8 @@ All CodeVibe packages are published to npm under the [`@quantiya`](https://www.n
 - **[@quantiya/codevibe](https://www.npmjs.com/package/@quantiya/codevibe)** — meta-package with `codevibe login`, `codevibe update`, and all agent wrappers
 - **[@quantiya/codevibe-core](https://www.npmjs.com/package/@quantiya/codevibe-core)** — shared library: keychain, E2E crypto, AppSync client, session lifecycle
 - **[@quantiya/codevibe-claude-plugin](https://www.npmjs.com/package/@quantiya/codevibe-claude-plugin)** — Claude Code plugin
-- **[@quantiya/codevibe-gemini-plugin](https://www.npmjs.com/package/@quantiya/codevibe-gemini-plugin)** — Gemini CLI plugin
 - **[@quantiya/codevibe-codex-plugin](https://www.npmjs.com/package/@quantiya/codevibe-codex-plugin)** — Codex CLI plugin
+- **[@quantiya/codevibe-antigravity-plugin](https://www.npmjs.com/package/@quantiya/codevibe-antigravity-plugin)** — Antigravity CLI plugin
 
 ## Mobile apps
 
